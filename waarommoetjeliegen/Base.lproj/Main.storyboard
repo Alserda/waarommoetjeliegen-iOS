@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lieegen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="WKI-OX-xvE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vU-QV-KVT" userLabel="2" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="288" width="249" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="4bI-6n-4e7"/>
+                                    <constraint firstAttribute="width" constant="249" id="PT6-dy-DFX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Waarom moet je altijd liegen"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x4c-Lp-76R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgu-RP-A4i" userLabel="3" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="340" width="157" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="2aV-gc-eSC"/>
+                                    <constraint firstAttribute="width" constant="157" id="9bH-mn-MiS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Mmmohmijnngod"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NrA-33-Lk0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSt-bi-kkg" userLabel="4" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="392" width="253" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="ST5-Dn-UPQ"/>
+                                    <constraint firstAttribute="width" constant="253" id="TRL-VO-GDf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Stop nou gewoon met lieegen!"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sUs-08-VsP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJT-iA-bz2" userLabel="5" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="317" y="340" width="94" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="01I-LF-gTb"/>
+                                    <constraint firstAttribute="width" constant="94" id="oic-Ec-1SG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Lieegen"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pvw-cN-r0m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6Z-ZW-pzn" userLabel="6" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="444" width="85" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="exx-v6-sLG"/>
+                                    <constraint firstAttribute="height" constant="42" id="qk7-Oa-2g9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Waarom"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pnm-CW-F49"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGc-KM-S5o" userLabel="7" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="245" y="444" width="62" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="baP-gP-2le"/>
+                                    <constraint firstAttribute="height" constant="42" id="svk-K1-7mx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Moet"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YRt-cu-k6l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9u-EQ-7xX" userLabel="8" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="317" y="444" width="38" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="LCF-ER-GTB"/>
+                                    <constraint firstAttribute="height" constant="42" id="bA0-hp-Z6d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Je"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPB-r9-q0K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tng-y6-jFz" userLabel="9" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="365" y="444" width="73" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="YlV-iR-DY5"/>
+                                    <constraint firstAttribute="width" constant="73" id="c19-BJ-neQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Liegen"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SOP-L3-UMg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tg3-Ye-xlQ" userLabel="11" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="255" y="496" width="195" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="CtT-kr-VAx"/>
+                                    <constraint firstAttribute="height" constant="42" id="W9O-zn-Cs1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="MmmMmmMmmMmm"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ia7-O9-qSF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7o-OF-wEv" userLabel="10" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="496" width="95" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="2au-h5-Ltw"/>
+                                    <constraint firstAttribute="width" constant="95" id="dvd-QW-ohV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Mmm..."/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcs-AS-lar"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by waarommoetjeliegen.nl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwK-qg-4E7">
+                                <rect key="frame" x="170" y="558" width="261" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IdK-gd-E5I" userLabel="1" customClass="LiegButton" customModule="Lieegen" customModuleProvider="target">
+                                <rect key="frame" x="150" y="236" width="211" height="42"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="211" id="1nn-TY-r9r"/>
+                                    <constraint firstAttribute="height" constant="42" id="DYv-pR-3PG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Waarom moet je liegen?"/>
+                                <connections>
+                                    <action selector="playSoundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ktf-YX-8Km"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fGc-KM-S5o" firstAttribute="leading" secondItem="x6Z-ZW-pzn" secondAttribute="trailing" constant="10" id="0N2-as-RvU"/>
+                            <constraint firstItem="VSt-bi-kkg" firstAttribute="top" secondItem="QJT-iA-bz2" secondAttribute="bottom" constant="10" id="1Mz-vB-URg"/>
+                            <constraint firstItem="QJT-iA-bz2" firstAttribute="top" secondItem="6vU-QV-KVT" secondAttribute="bottom" constant="10" id="4N5-ef-d2W"/>
+                            <constraint firstItem="Tg3-Ye-xlQ" firstAttribute="top" secondItem="fGc-KM-S5o" secondAttribute="bottom" constant="10" id="5s6-wc-JvX"/>
+                            <constraint firstItem="Tng-y6-jFz" firstAttribute="leading" secondItem="p9u-EQ-7xX" secondAttribute="trailing" constant="10" id="6zt-NW-4Ik"/>
+                            <constraint firstItem="QJT-iA-bz2" firstAttribute="leading" secondItem="vgu-RP-A4i" secondAttribute="trailing" constant="10" id="8gn-cP-qzu"/>
+                            <constraint firstItem="IdK-gd-E5I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-44.5" id="AlK-9O-QtD"/>
+                            <constraint firstItem="wwK-qg-4E7" firstAttribute="top" secondItem="O7o-OF-wEv" secondAttribute="bottom" constant="20" id="BRx-Fk-jZG"/>
+                            <constraint firstItem="VSt-bi-kkg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-24" id="Bib-y2-Mim"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WKI-OX-xvE" secondAttribute="bottom" id="HgE-cJ-vxW"/>
+                            <constraint firstItem="vgu-RP-A4i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-72" id="Klh-wl-F4a"/>
+                            <constraint firstItem="Tng-y6-jFz" firstAttribute="top" secondItem="VSt-bi-kkg" secondAttribute="bottom" constant="10" id="LGB-ed-dBS"/>
+                            <constraint firstItem="x6Z-ZW-pzn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-108" id="TOC-0h-zfe"/>
+                            <constraint firstItem="WKI-OX-xvE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="aEc-Hn-D44"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wwK-qg-4E7" secondAttribute="bottom" constant="20" id="cpk-cL-tWa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WKI-OX-xvE" secondAttribute="trailing" constant="-20" id="d3t-GX-BoW"/>
+                            <constraint firstItem="O7o-OF-wEv" firstAttribute="top" secondItem="x6Z-ZW-pzn" secondAttribute="bottom" constant="10" id="eR2-IS-VaE"/>
+                            <constraint firstItem="wwK-qg-4E7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="es6-vE-eQp"/>
+                            <constraint firstItem="O7o-OF-wEv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-102.5" id="hQc-Mp-A7V"/>
+                            <constraint firstItem="VSt-bi-kkg" firstAttribute="top" secondItem="vgu-RP-A4i" secondAttribute="bottom" constant="10" id="kXs-Vr-OA1"/>
+                            <constraint firstItem="Tg3-Ye-xlQ" firstAttribute="leading" secondItem="O7o-OF-wEv" secondAttribute="trailing" constant="10" id="lic-5J-YTI"/>
+                            <constraint firstItem="6vU-QV-KVT" firstAttribute="top" secondItem="IdK-gd-E5I" secondAttribute="bottom" constant="10" id="mCP-kr-lDL"/>
+                            <constraint firstItem="Tg3-Ye-xlQ" firstAttribute="leading" secondItem="O7o-OF-wEv" secondAttribute="trailing" constant="10" id="mwd-sh-Na6"/>
+                            <constraint firstItem="Tg3-Ye-xlQ" firstAttribute="top" secondItem="Tng-y6-jFz" secondAttribute="bottom" constant="10" id="oBz-7Q-SeP"/>
+                            <constraint firstItem="Tg3-Ye-xlQ" firstAttribute="top" secondItem="p9u-EQ-7xX" secondAttribute="bottom" constant="10" id="qa2-TV-Q7Y"/>
+                            <constraint firstItem="WKI-OX-xvE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="r0o-cE-o2Z"/>
+                            <constraint firstItem="wwK-qg-4E7" firstAttribute="top" secondItem="Tg3-Ye-xlQ" secondAttribute="bottom" constant="20" id="sQa-Bw-OF1"/>
+                            <constraint firstItem="p9u-EQ-7xX" firstAttribute="leading" secondItem="fGc-KM-S5o" secondAttribute="trailing" constant="10" id="skG-0T-B7R"/>
+                            <constraint firstItem="6vU-QV-KVT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-25.5" id="uKB-KD-9GM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="IdK-gd-E5I" id="bcb-2n-rKN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="460"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="179" height="179"/>
+    </resources>
+</document>
